@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  @apply bg-tech-bg text-tech-text overflow-x-hidden;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#app {
+  @apply min-h-screen flex flex-col;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-tech-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-tech-card border border-tech-primary/30 rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-tech-primary/20;
+}
