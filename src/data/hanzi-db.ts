@@ -315,7 +315,6 @@ export const hanziData: Record<string, HanziData> = {
   "解": { char: "解", pinyin: "jiě", radicals: "角", script: "角刀牛，解决问题。", tags: ["高频"] },
   "议": { char: "议", pinyin: "yì", radicals: "讠", script: "言义，会议讨论。", tags: ["高频"] },
   "义": { char: "义", pinyin: "yì", radicals: "丶", script: "点撇捺，义气凛然。", tags: ["高频"] },
-  "山": { char: "山", pinyin: "shān", radicals: "山", script: "高山，爬山。", tags: ["高频"] },
   "先": { char: "先", pinyin: "xiān", radicals: "儿", script: "牛儿，先生。", tags: ["高频"] },
   "车": { char: "车", pinyin: "chē", radicals: "车", script: "车子，汽车。", tags: ["高频"] },
   "白": { char: "白", pinyin: "bái", radicals: "白", script: "白色，白天。", tags: ["高频"] },

@@ -6,14 +6,22 @@ import HanziDemo from '../components/HanziDemo.vue';
 import StrokeSequence from '../components/StrokeSequence.vue';
 
 const route = useRoute();
-const router = useRouter();
 const char = route.params.char as string;
+const router = useRouter();
 const data = hanziData[char];
 
 const strokeCount = ref<number | null>(null);
 
 const handleStrokeUpdate = (count: number) => {
   strokeCount.value = count;
+};
+
+const goBack = () => {
+  router.back();
+};
+
+const goToPrint = () => {
+  router.push({ name: 'print', params: { char } });
 };
 </script>
 
